@@ -135,6 +135,9 @@ Démarrage de l'instance :
 `Net start MSSQLSERVER`
 
 ## Bonnes pratiques SQL
+
+Script automatique de base à ajouter à toute bonne install qui se respecte
+
 ```
 'Passage de la base en mode de recuperation simple
 ALTER DATABASE [BIJOU] SET RECOVERY SIMPLE
