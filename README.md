@@ -8,7 +8,7 @@ Centralisation des ressources autour de Sage (Trigger SQL, formules, etc.)
 Nous vous invitons à tester tous les codes sur des bases de test avant de les déployer sur les bases de prod.
 Nous ne pourrons en aucun cas être tenu responsable de quelconques effets de bord suite à l'utilisation de ces ressources sans les précautions qui s'imposent.
 
-## Content
+## Sommaire
 <ul>
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#resolution-message-derreur">RESOLUTION MESSAGE ERREUR</a>
 <ul>
