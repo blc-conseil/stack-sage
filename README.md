@@ -1,19 +1,41 @@
+<img class="alignnone size-medium wp-image-45947" src="https://blc-conseil.com/wp-content/uploads/2020/05/BLC-Logo-couleur-320.svg" alt="" width="300" height="300" />
+
 # stack-sage
 Centralisation des ressources autour de Sage (Trigger SQL, formules, etc.)
-
 ## Content
-- Trigger SQL
-- Formules Excel
-- Menu 3
-- ...
+<ul>
+ 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#resolution-message-derreur">RESOLUTION MESSAGE ERREUR</a>
+<ul>
+ 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#alter-authorization">Alter authorization</a>
+ 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#change-user-id">Change user ID</a>
+</ul>
+</li>
+ 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#evolution-fonctionnelle">EVOLUTION FONCTIONNELLE</a>
+ 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
+ 	<li></li>
+</ul>
 
-## Trigger SQL
+## Resolution message d'erreur
 
-### Erreur en ouverture BDD après manip sur les bases
+### Alter authorization
+
+<strong>Périmètre = Tous les logiciels Sage 100 version SQL</strong>
 
 Message d'erreur à l'ouverture d'une base de données dans Sage.
 Se produit après qu'on ait détacher, rattacher une base généralement.
 
 alter authorization on DATABASE :: [NOM BASE DE DONNEES] to [Nom de l’utilisateur Windows]
 
+### Change user ID
+
+Périmètre = Tous les logiciels Sage 100 version SQL
+
+Message d'erreur à l'ouverture d'une base de données dans Sage.
+Se produit après qu'on ait détacher, rattacher une base généralement.
+
 sp_change_users_login 'update_one', 'user_cbase', 'APPL_CBASE'
+
+## Evolution fonctionnelle
+
+
+## Formules Excel
