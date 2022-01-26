@@ -155,7 +155,7 @@ GO
 ALTER DATABASE [BIJOU] SET RECOVERY FULL
 Go
 ```
-##Script de sauvegarde base SQL
+## Script de sauvegarde base SQL
 
 Pratique lorsqu'on est en SQL Express et qu'on ne peut pas faire de plan de maintenance
 
