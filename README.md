@@ -70,10 +70,6 @@ Vider les tables suivantes :
 Dans le SQL Management studio lancer une nouvelle requête :
 `sp_who2`
 
-
-## Formules Excel
-Test ajout Baptiste
-
 ## Ajustement des cumuls dans Sage 100 Gestion commerciale
 Typiquement le genre de code à prendre avec des "pincettes".
 A tester et à re-tester sur des copies de base.
@@ -124,7 +120,7 @@ next
 END SUB
 
 ```
-## Script redemarrage instance sql
+### Script redemarrage instance sql
 Code à rajouter à vos automatismes pour arrêter et redémarrer une instance SQL
 
 _Remplacer "MSSQLSERVER" par le nom de votre instance_
@@ -135,7 +131,7 @@ Arrêt de de l'instance :
 Démarrage de l'instance :
 `Net start MSSQLSERVER`
 
-## Bonnes pratiques SQL
+### Bonnes pratiques SQL
 
 Script automatique de base à ajouter à toute bonne install qui se respecte
 
@@ -155,7 +151,7 @@ GO
 ALTER DATABASE [BIJOU] SET RECOVERY FULL
 Go
 ```
-## Script de sauvegarde base SQL
+### Script de sauvegarde base SQL
 
 Pratique lorsqu'on est en SQL Express et qu'on ne peut pas faire de plan de maintenance
 
@@ -166,3 +162,6 @@ _Il convient de remplacer les arguments par les siens (Nom de la base, chemin de
 sqlcmd -S SRV01\SAGE100 -E -Q "BACKUP DATABASE [BIJOU] TO  DISK = N'C:\Backup\BIJOU.bak' WITH NOFORMAT, INIT,  NAME = N'BIJOU-Complète Base de données Sauvegarde', SKIP, NOREWIND, NOUNLOAD,  STATS = 10"
 
 ```
+
+## Formules Excel
+Test ajout Baptiste
