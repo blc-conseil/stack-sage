@@ -19,7 +19,7 @@ Centralisation des ressources autour de Sage (Trigger SQL, formules, etc.)
 
 ### Alter authorization
 
-<strong>Périmètre = Tous les logiciels Sage 100 version SQL</strong>
+***Périmètre = Tous les logiciels Sage 100 version SQL***
 
 Message d'erreur à l'ouverture d'une base de données dans Sage.
 Se produit après qu'on ait détacher, rattacher une base généralement.
@@ -28,7 +28,7 @@ Se produit après qu'on ait détacher, rattacher une base généralement.
 
 ### Change user ID
 
-Périmètre = Tous les logiciels Sage 100 version SQL
+***Périmètre = Tous les logiciels Sage 100 version SQL***
 
 Message d'erreur à l'ouverture d'une base de données dans Sage.
 Se produit après qu'on ait détacher, rattacher une base généralement.
