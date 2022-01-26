@@ -14,6 +14,7 @@ Nous ne pourrons en aucun cas être tenu responsable de quelquonques effets de b
 <ul>
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#alter-authorization">Alter authorization</a>
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#change-user-id">Change user ID</a>
+  <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#change-user-id">Liste des tables à vider utilisateurs persistants</a>
 </ul>
 </li>
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#evolution-fonctionnelle">EVOLUTION FONCTIONNELLE</a>
@@ -43,6 +44,19 @@ Message d'erreur à l'ouverture d'une base de données dans Sage.
 Se produit après qu'on ait détacher, rattacher une base généralement.
 
 `sp_change_users_login 'update_one', 'user_cbase', 'APPL_CBASE'`
+
+### Liste des tables à vider utilisateurs persistants
+
+***Périmètre = Tous les logiciels Sage 100 version SQL***
+
+Vider les tables suivantes :
+-	cbmessage
+-	cbnotification
+-	cbregfile
+-	cbregmessage
+-	cbreguser
+-	cbusersession
+
 
 ## Evolution fonctionnelle
 
