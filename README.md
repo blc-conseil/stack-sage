@@ -49,6 +49,8 @@ Se produit après qu'on ait détacher, rattacher une base généralement.
 
 ***Périmètre = Tous les logiciels Sage 100 version SQL***
 
+Quand il reste des utilisateurs connectés qui vous empêchent d'effectuer des traitements de maintenance (Ou des traitements qui nécessite d'être en mono)
+
 Vider les tables suivantes :
 -	cbmessage
 -	cbnotification
