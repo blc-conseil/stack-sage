@@ -129,5 +129,6 @@ _Remplacer "MSSQLSERVER" par le nom de votre instance_
 
 Arrêt de de l'instance :
 `Net stop MSSQLSERVER`
+
 Démarrage de l'instance :
-Net start MSSQLSERVER
+`Net start MSSQLSERVER`
