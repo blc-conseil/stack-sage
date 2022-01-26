@@ -18,7 +18,8 @@ Nous ne pourrons en aucun cas être tenu responsable de quelquonques effets de b
 </li>
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#evolution-fonctionnelle">EVOLUTION FONCTIONNELLE</a>
 <ul>
-  <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#voir-les-user-connectes-sur-sql">Voir les user connectés sur SQL</a>
+  <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#voir-les-user-connectes-sur-une-instance-sql">Voir les user connectés sur SQL</a>
+</ul>   
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
  	<li></li>
 </ul>
