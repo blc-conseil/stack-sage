@@ -22,7 +22,8 @@ Nous ne pourrons en aucun cas être tenu responsable de quelquonques effets de b
   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#voir-les-user-connectes-sur-une-instance-sql">Voir les user connectés sur SQL</a>
   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#ajustement-des-cumuls-dans-Sage-100-gestion-commerciale">Ajustement des cumuls en gesco (VBS)</a> 
   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#script-redemarrage-instance-sql">Script redémarrage instance sql</a>
-   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#bonnes-pratiques-sql">Bonnes pratiques SQL</a> 
+   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#bonnes-pratiques-sql">Bonnes pratiques SQL</a>
+   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#script-de-sauevagrde-base-sql">Script de sauvegarde base SQL</a> 
 </ul>   
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
  	<li></li>
@@ -153,4 +154,15 @@ GO
 'Remise de la base en mode de recuperation complete
 ALTER DATABASE [BIJOU] SET RECOVERY FULL
 Go
+```
+##Script de sauvegarde base SQL
+
+Pratique lorsqu'on est en SQL Express et qu'on ne peut pas faire de plan de maintenance
+
+_Il convient de remplacer les arguments par les siens (Nom de la base, chemin de sauvegarde)_
+
+```
+
+sqlcmd -S SRV01\SAGE100 -E -Q "BACKUP DATABASE [BIJOU] TO  DISK = N'C:\Backup\BIJOU.bak' WITH NOFORMAT, INIT,  NAME = N'BIJOU-Complète Base de données Sauvegarde', SKIP, NOREWIND, NOUNLOAD,  STATS = 10"
+
 ```
