@@ -1,4 +1,4 @@
-<img class="alignnone size-medium wp-image-45947" src="https://blc-conseil.com/wp-content/uploads/2020/05/BLC-Logo-couleur-320.svg" alt="" width="300" height="300" />
+<a href="https://bit.ly/blccommu">Discord entraide sur Sage</a>
 
 # stack-sage
 Centralisation des ressources autour de Sage (Trigger SQL, formules, etc.)
