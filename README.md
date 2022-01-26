@@ -14,7 +14,7 @@ Nous ne pourrons en aucun cas être tenu responsable de quelquonques effets de b
 <ul>
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#alter-authorization">Alter authorization</a>
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#change-user-id">Change user ID</a>
-  <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#change-user-id">Liste des tables à vider utilisateurs persistants</a>
+  <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#liste-des-tables-à-vider-utilisateurs-persistants">Liste des tables à vider utilisateurs persistants</a>
 </ul>
 </li>
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#evolution-fonctionnelle">EVOLUTION FONCTIONNELLE</a>
