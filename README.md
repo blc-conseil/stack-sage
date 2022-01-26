@@ -4,14 +4,14 @@
 Centralisation des ressources autour de Sage (Trigger SQL, formules, etc.)
 ## Content
 <ul>
- 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#resolution-message-derreur">RESOLUTION MESSAGE ERREUR</a>
+ 	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#resolution-message-derreur">RESOLUTION MESSAGE ERREUR</a>
 <ul>
- 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#alter-authorization">Alter authorization</a>
- 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#change-user-id">Change user ID</a>
+ 	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#alter-authorization">Alter authorization</a>
+ 	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#change-user-id">Change user ID</a>
 </ul>
 </li>
- 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#evolution-fonctionnelle">EVOLUTION FONCTIONNELLE</a>
- 	<li><a href="https://github.com/BaptisteBLC/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
+ 	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#evolution-fonctionnelle">EVOLUTION FONCTIONNELLE</a>
+ 	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
  	<li></li>
 </ul>
 
