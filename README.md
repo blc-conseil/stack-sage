@@ -20,6 +20,7 @@ Nous ne pourrons en aucun cas être tenu responsable de quelquonques effets de b
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#evolution-fonctionnelle">EVOLUTION FONCTIONNELLE</a>
 <ul>
   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#voir-les-user-connectes-sur-une-instance-sql">Voir les user connectés sur SQL</a>
+  <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#ajustement-des-cumuls-dans-Sage-100-gestion-commerciale">Ajustement des cumuls en gesco (VBS)</a> 
 </ul>   
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
  	<li></li>
@@ -69,3 +70,54 @@ Dans le SQL Management studio lancer une nouvelle requête :
 
 ## Formules Excel
 Test ajout Baptiste
+
+## Ajustement des cumuls dans Sage 100 Gestion commerciale
+Typiquement le genre de code à prendre avec des "pincettes".
+A tester et à re-tester sur des copies de base.
+
+Vous pourrez ensuite l'automatiser avec une tâche planifiée et le fichier VBS ci-dessous
+
+Bien sûr il convient de s'approprier le code en remplaçant les arguments par ses propres valeurs :
+
+```
+
+'Exemple de réajustement des cumuls d'une Base Commerciale Sage 100
+    Dim IniFile  
+    Dim sPathCbaseD
+    CONST GCOTE = """"
+    CONST PATH_DEFAULTEXE = "C:\Program Files\GecoMaes\"
+    CONST EXECIAL = "GecoMaes.exe"
+    CONST PATH_BASES = "C:\Documents and Settings\All Users\Documents\Sage\Gestion commerciale\"
+    CONST BASECIAL="Bijou.gcm"
+    CONST BASECPTA="Bijou.mae"
+   
+    Call Connect_Gescom()
+
+SUB Connect_Gescom()
+    Dim oSheel
+    Dim sExeCute
+    Dim i
+    Dim sPwd, sUser
+
+    Set oSheel = Wscript.CreateObject("Wscript.Shell")
+    sUser = "<Administrateur>"
+    sPwd = ""
+    
+    sExecute = GCOTE & PATH_DEFAULTEXE  & EXECIAL & GCOTE & " " & GCOTE & PATH_BASES  & BASECIAL & GCOTE & " " & GCOTE & PATH_BASES  & BASECPTA & GCOTE & " -u" & sUser & " -p" & sPwd
+    oSheel.Run sExecute,9
+    Wscript.sleep(6000)
+    oSheel.SendKeys("%F")   
+    oSheel.SendKeys("u")
+    oSheel.SendKeys("c")
+for i = 1 to 4
+    oSheel.SendKeys("{TAB}")
+    oSheel.SendKeys("{+}")
+next
+    Wscript.sleep(6000)
+    oSheel.SendKeys("~")
+    Wscript.sleep(10000)
+    oSheel.SendKeys("~")
+    oSheel.SendKeys("%{F4}")
+END SUB
+
+```
