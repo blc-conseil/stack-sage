@@ -23,7 +23,7 @@ Nous ne pourrons en aucun cas être tenu responsable de quelquonques effets de b
   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#ajustement-des-cumuls-dans-Sage-100-gestion-commerciale">Ajustement des cumuls en gesco (VBS)</a> 
   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#script-redemarrage-instance-sql">Script redémarrage instance sql</a>
    <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#bonnes-pratiques-sql">Bonnes pratiques SQL</a>
-   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#script-de-sauevagrde-base-sql">Script de sauvegarde base SQL</a> 
+   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#script-de-sauvegarde-base-sql">Script de sauvegarde base SQL</a> 
 </ul>   
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
  	<li></li>
