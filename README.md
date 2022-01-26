@@ -14,6 +14,7 @@ Centralisation des ressources autour de Sage (Trigger SQL, formules, etc.)
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
  	<li></li>
 </ul>
+[Test d'un lien](https://blc-conseil.com)
 
 ## Resolution message d'erreur
 
