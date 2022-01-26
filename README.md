@@ -43,6 +43,10 @@ Se produit après qu'on ait détacher, rattacher une base généralement.
 
 ## Evolution fonctionnelle
 
+### Voir les user connectés sur une instance SQL
+Dans le SQL Management studio lancer une nouvelle requête :
+`sp_who2`
+
 
 ## Formules Excel
 Test ajout Baptiste
