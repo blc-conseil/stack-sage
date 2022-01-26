@@ -6,7 +6,7 @@ Centralisation des ressources autour de Sage (Trigger SQL, formules, etc.)
 ## Disclaimer
 :warning: L'utilisation de ces ressources est de votre entière responsabilité.
 Nous vous invitons à tester tous les codes sur des bases de test avant de les déployer sur les bases de prod.
-Nous ne pourrons en aucun cas être tenu responsable de quelconques effets de bord suite à l'utilisation de ces ressources sans les précuations qui s'imposent.
+Nous ne pourrons en aucun cas être tenu responsable de quelconques effets de bord suite à l'utilisation de ces ressources sans les précautions qui s'imposent.
 
 ## Content
 <ul>
