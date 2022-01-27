@@ -3,7 +3,8 @@ Centralisation des ressources autour de Sage (Trigger SQL, formules, etc.)
 
 ## Pour contribuer
 Venir sur le Discord d'entraide <a href="https://bit.ly/blccommu">Discord entraide sur Sage</a>
-Nous écrire un e-mail pour qu'on vous donne accès = hello@blc.gg
+
+Nous écrire un e-mail pour qu'on vous donne accès hello@blc.gg
 
 ## Disclaimer
 :warning: L'utilisation de ces ressources est de votre entière responsabilité.
