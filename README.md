@@ -6,6 +6,8 @@ Venir sur le Discord d'entraide <a href="https://bit.ly/blccommu">Discord entrai
 
 Nous écrire un e-mail pour qu'on vous donne accès hello@blc.gg
 
+Remplir le formulaire <a href="https://forms.gle/tidQi3sj7Tq1bjMi9"> Partager une ressource avec le formulaire</a>
+
 ## Disclaimer
 :warning: L'utilisation de ces ressources est de votre entière responsabilité.
 Nous vous invitons à tester tous les codes sur des bases de test avant de les déployer sur les bases de prod.
