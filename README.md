@@ -171,12 +171,14 @@ sqlcmd -S SRV01\SAGE100 -E -Q "BACKUP DATABASE [BIJOU] TO  DISK = N'C:\Backup\BI
 
 ### Réinitialiser le mot de passe <Administrateur> de Sage
 
- --Sage Comptabilité
+```
+--Sage Comptabilité
 UPDATE F_PROTECTIONCPTA
 SET
 PROT_Guid='d17b5a69-8dd6-42fd-805c-36c5c7419872',
 PROT_Hash=0x870A3CFBA667D3B6A8B40BA44545F63D2B2012F7A697A43AFD3AA753F618DDE2
 WHERE PROT_User='<Administrateur>'
+```
 
 --Sage Gestion Commerciale
 UPDATE F_PROTECTIONCIAL
