@@ -29,7 +29,7 @@ Nous ne pourrons en aucun cas être tenu responsable de quelconques effets de bo
   <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#script-redemarrage-instance-sql">Script redémarrage instance sql</a>
    <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#bonnes-pratiques-sql">Bonnes pratiques SQL</a>
    <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#script-de-sauvegarde-base-sql">Script de sauvegarde base SQL</a> 
-    <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#reinitialiser-mot-de-passe-administrateur-sage">Réinitialiser mot de passe Administrateur Sage</a> 
+    <li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#réinitialiser-le-mot-de-passe-administrateur-de-sage">Réinitialiser mot de passe Administrateur Sage</a> 
 </ul>   
  	<li><a href="https://github.com/blc-conseil/stack-sage/blob/main/README.md#formules-excel">FORMULES EXCEL</a>
  	<li></li>
