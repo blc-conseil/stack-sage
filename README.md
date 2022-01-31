@@ -169,9 +169,9 @@ sqlcmd -S SRV01\SAGE100 -E -Q "BACKUP DATABASE [BIJOU] TO  DISK = N'C:\Backup\BI
 
 ```
 
-### Réinitialiser le mot de passe <Administrateur> de Sage
+### Réinitialiser le mot de passe `<Administrateur>` de Sage
  
-Petite requête pratique si vous avez oublié le mode de passe de l'utilisateur <Administrateur> dans vos applications Sage.
+Petite requête pratique si vous avez oublié le mode de passe de l'utilisateur `<Administrateur>` dans vos applications Sage.
 Cela a pour effet d'enlever le mot de passe, afin que vous puissiez vous reconnecter dans vos applications et en définir un nouveau
 
 ```
